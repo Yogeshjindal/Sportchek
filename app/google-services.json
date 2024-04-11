@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "539812252801",
+    "project_id": "anavnaigation",
+    "storage_bucket": "anavnaigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539812252801:android:935ae2f8696a56787a9180",
+        "android_client_info": {
+          "package_name": "com.example.anavnaigation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLKJIbpAQC4rYqrh9AFgTuX5C2uiNaKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539812252801:android:c78eeb97a3010bac7a9180",
+        "android_client_info": {
+          "package_name": "com.example.sportchek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLKJIbpAQC4rYqrh9AFgTuX5C2uiNaKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EverythingFragment">
+    <include layout="@layout/toolbar" />
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="113dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="120dp"
+
+        android:layout_marginTop="240dp"
+
+        android:text="@string/ViewAllEquipment" />
+
+    <Button
+        android:id="@+id/Issue"
+        android:layout_width="103dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="120dp"
+
+        android:layout_marginTop="325dp"
+        android:text="@string/Issue" />
+
+    <Button
+        android:id="@+id/ViewIssued"
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+
+        android:layout_marginStart="120dp"
+
+        android:layout_marginTop="415dp"
+
+        android:text="@string/ViewIssuedEquipmemt" />
+<!--    <ImageView-->
+<!--        android:id="@+id/backgroundImageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@id/toolbar"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:background="@drawable/img2"-->
+<!--        android:elevation="-1dp"-->
+<!--        />-->
+
+
+</FrameLayout>
+

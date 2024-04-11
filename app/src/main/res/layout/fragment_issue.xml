@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Issue"
+    >
+
+
+        <include layout="@layout/toolbar" />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="230dp"
+        android:hint="@string/Your_Roll_No."
+        android:id="@+id/roll"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="300dp"
+       android:minHeight="70dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Issue"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="430dp"
+        android:text="@string/issue"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        /> <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Return"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="430dp"
+        android:text="@string/Return"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        />
+
+
+
+
+</FrameLayout>
+
+
+
+
+
